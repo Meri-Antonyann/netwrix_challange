@@ -23,4 +23,3 @@ Route::resource('partners', PartnerLocatorController::class)->only(['index','sto
 Route::get('countries', [CountryController::class, 'index']);
 Route::get('states', [StateController::class, 'index']);
 Route::get('types', [PartnerLocatorController::class, 'types']);
-Route::post('search', [PartnerLocatorController::class, 'search']);

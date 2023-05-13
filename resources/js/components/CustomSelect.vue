@@ -49,9 +49,7 @@
             return self.options;
           };
         }
-      },
-      mounted(){
-      },
+      }, 
       methods: {
         toggleDropdown() {
           this.isDropdownOpen = !this.isDropdownOpen

@@ -19,7 +19,6 @@ const mutations = {
 
 const actions =  {
     loadPartners({commit}, data) {
-        console.log(data)
         const fullPage = ref(true);
         let formContainer = ref(null);
         let loader = useLoading();
@@ -39,12 +38,6 @@ const actions =  {
         }).catch(error=>{
             console.log(error)
         })
-
-    //   this.axios.get('partners', data).then(result => {
-    //     commit('SAVE_USERS', result.data);
-    //   }).catch(error => {
-    //     throw new Error(`API ${error}`);
-    //   });
     }
   }
 
