@@ -15,6 +15,6 @@
 DB_DATABASE=netwrix_challange
 
 
-#notes
+# notes
 
 <p>As the vuetify select package had some confusions with my code I've created my own select-options component</p>
